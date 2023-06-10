@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="box">
+        <header>
+            <div class="black__block1">
+                <div class="v1">
+                    <img class="i3" src="img/icons8-phone-60 1.png" alt="">
+                    <p id="p1" >0 800 333 123 - HotLine</p>
+                </div>
+                <div class="v2">
+                    <img class="i1" src="img/icons8-instagram-150 1.png" alt="">
+                    <img class="i1" src="img/icons8-facebook-f-60 1.png" alt="">
+                    <img class="i2" src="img/icons8-twitter-60 (2) 1.png" alt="">
+
+                    <p onclick="en()" id="p2">EN  </p>
+                    <p  class="p2">|</p>
+                    <p onclick="ua()" id="p3">  UA</p>
+                </div>
+            </div>
+            <div class="white__block1">
+                <img class="i4" src="img/image 1 (1).png" alt="">
+                <div class="ii1">
+                    <img class="i5" id="i5" src="img/icons8-sun 1.png" alt="">
+                    <img class="i6" id="i6" src="img/icons8-sun-100(1) 1.png" alt="">
+                </div>
+            </div>
+            <div class="green__block1">
+                <div class="img__greem__block">
+                    <img class="img1" src="img/image 8.png" alt="">
+                    <p id="p4" >Єднаємось</p>
+                    <p id="p5" >Допоможемо нашим захисникам — допожемо Україні</p>
+                    <p id="p6" >Приєднуйтесь до волонтерства</p>
+                    <button class="button1"><p id="p7"  >Перейти</p></button>
+                </div>
+                <img src="img/image 5.png" alt="">
+            </div>
+            <div class="big__white__block">
+                <p id="p8"  >Хто ми і в чому наша сила?</p>
+                <img src="img/image 13.png" alt="">
+                <div class="img__text1">
+                    <div class="blockintextblock" id="q1" onclick="fun1()">
+                        <p  id="p9">Українці - народ, який населяє державу Україна,розташовану в Східній Європі. </p>
+                    </div>
+                    <div class="blockintextblock block" id="q2" onclick="fun2()">
+                        <p  id="p10">Українці прагнуть політичної стабільності, економічного процвітання та кращої якості життя.</p>
+                    </div>
+                    <div class="blockintextblock block" id="q3" onclick="fun3()">
+                        <p  id="p11">Загалом вони прагнуть до мирної, єдиної та процвітаючої України </p>
+                    </div>
+                </div> 
+            </div>
+        </header>
+        <main>
+            <section class="s1">
+                <p class="p9">“</p>
+                <p id="p15"  class="p10">Відгуки про нас:</p>
+                <p class="x" id="p16">Я приєднався до цього сайту волонтерів і залишився дуже задоволений! Відмінна платформа для знаходження значних проектів та волонтерської роботи.</p>
+            </section>
+
+            <section class="s2">
+                <p id="p17" class="p12">Наші герої</p>
+                <button class="btn back" onclick="back()"> <img src="img/image 10.png" alt=""></button>
+                <div class="container">
+                    <div id="first" class="slider__item">
+                        <img class="i7" src="img/image 12.png" alt="">
+                        <div class="slider__item_block">
+                            <p id="p18" class="p18">Привид</p>
+                            <p id="p19" class="p19">Міська легенда про персонажа російсько-української війни; Його описують як пілота МіГ-29, який за перші 30 годин російського вторгнення, здобув 6 повітряних перемог у небі над Києвом.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="second" class="slider__item">
+                        <img class="i7" src="img/download.jpeg" alt="">
+                        <div class="slider__item_block">
+                            <p id="p20" class="p18">"Да Вінчі"</p>
+                            <p id="p21" class="p19">Український доброволець, молодший лейтенант, командир 1 ОМБ «Вовки Да Вінчі» Збройних сил України. Герой України. Член Проводу національно-визвольного руху «Правий сектор».
+                            </p>
+                        </div>
+                    </div>
+                    <div id="third" class="slider__item">
+                        <img class="i7" src="img/6392e61786403_original_w859_h569.jpg" alt="">
+                        <div class="slider__item_block">
+                            <p id="p22"  class="p18">"Karaya"</p>
+                            <p id="p23" class="p19">28-річний військовий льотчик з позивним Karaya та один із найкращих українських пілотів-винищувачів. 12 жовтня знищив 5 ворожих дронів на Вінничині і відвів винищувач від населеного пункту.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn next" onclick="next()"> <img src="img/image 11.png" alt=""></button>
+            </section>
+            
+            <section class="s3">
+                <p id="p24" class="s3__text">Чим можна допомогти нашим захисникам?</p>
+                <div class="s3__box pp3">
+                    <p id="p25" class="p13">1. LOREM IPSUM</p>
+                    <p id="p26" class="p14">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="s3__box pp4">
+                    <p id="p27" class="p13">3. LOREM IPSUM</p>
+                    <p id="p28" class="p14">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="s3__box pp3">
+                    <p id="p29" class="p13">2. LOREM IPSUM</p>
+                    <p id="p30" class="p14">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="s3__box pp4">
+                    <p id="p31" class="p13">4. LOREM IPSUM</p>
+                    <p id="p32" class="p14">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </section>
+
+            <section class="s4">
+                <p id="p33" class="p15">Допоможи захистити країну</p>
+                <p id="p34" class="p16"><span id="p35" class="p17">Повідомте про ворога</span><br>Завдяки вашої інформації захисники країни зможуть бачити переміщення ворога в реальному часі</p>
+                <div class="s4__block">
+                    <div class="input__block1">
+                        <p id="p36">Ваше ім'я</p>
+                        <input id="name" type="text" placeholder="Петро">
+                    </div>
+                    <div class="input__block1">
+                        <p id="p37">Email адреса *</p>
+                        <input id="email" type="text" placeholder="example@gmail.com">
+                    </div>
+                    <div class="input__block1 o">
+                        <p id="p38">Телефон</p>
+                        <input id="tel" type="text" placeholder="+380-978-999-999">
+                    </div>
+                    <div class="input__block2">
+                        <p id="p39">Адреса *</p>
+                        <input id="adr" type="text" placeholder="Місто та вулиця">
+                    </div>
+                    <div class="input__block3">
+                        <p id="p40">Що ви помітили?</p>
+                        <select name="" id="pom">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </div>
+                    <button class="button2" onclick="safetopc()">
+                    <p id="p41" class="button2p">Відправити</p>
+                </button>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+<script src="js/m.js"></script>
+</html>

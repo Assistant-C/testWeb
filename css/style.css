@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+button{
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+}
+.box{
+    height: 3612px;
+    width: 1200px;
+    margin: 0 auto;   
+}
+header{
+    height: 1360px;
+    width: 1200px;
+}
+.black__block1{
+    height: 45px;
+    width: 1200px;
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p1{
+    font-family: 'Istok Web', sans-serif;
+    color: #FFFFFF;
+    width: 181px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+.v1{
+    width: 216px;
+    height: 21px;
+    display: flex;
+    margin-left: 82px;
+}
+.v2{
+    width: 220px;
+    height: 25px;
+    display: flex;
+    margin-right: 141px;
+}
+.p2{
+width: 80px;
+height: 20px;
+font-family: 'Istok Web', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+.i1{
+    margin-right: 16px;
+}
+.i2{
+    margin-right: 31px;
+}
+.i3{
+    margin-right: 10px;
+}
+.white__block1{
+    width: 100%;
+    height: 77px;
+    background: #FFFFFF;
+}
+.i4{
+    margin-top: 18px;
+    margin-left: 83px;
+}
+.green__block1{
+width: 1200px;
+height: 550px;
+background: #76AF87;
+display: flex;
+}
+.img__greem__block{
+    margin-left: 61px;
+}
+.p3{
+    width: 278px;
+    height: 92px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 62px;
+    letter-spacing: 0.04em;
+    color: #224F41;
+    position: absolute;
+    z-index:100;
+    top: 215px;
+    margin-left: 82px;
+}
+.img1{
+    width: 437px;
+    height: 123px;
+    margin-top: 68px;
+}
+.p4{
+    width: 418px;
+    height: 175px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 55px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-left: 21px;
+
+}
+.p5{
+    width: 372px;
+    height: 26px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #224F41;
+    margin-left: 22px;
+    
+}
+.button1{
+    width: 226px;
+    height: 63px;
+    border: 2px solid #FFDD1B;
+    margin-left: 22px;
+    margin-top: 16px;
+}
+.p6{
+    width: 226px;
+    height: 31px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #F0BE1B;
+    
+}
+.big__white__block{
+    width: 1200px;
+    height: 688px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blockintextblock{
+    width: 602px;
+    height: 143px;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+.block{
+    margin-top: 13px;
+}
+.p7{
+    width: 100%;
+    height: 49px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 37px;
+}
+.p8{
+    width: 553px;
+    height: 73px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-top: 18px;
+}
+.y{
+    color: #F0BE1B;
+    margin-left: 22px;
+}
+.p9{
+    width: 100%;
+    height: 77px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 101px;
+    text-align: center;
+    letter-spacing: 0.05em; 
+    color: #000000;
+    margin-top: 17px;
+}
+.p10{
+    width: 100%;
+    height: 49px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: -2px;
+}
+.x{
+    width: 828px;
+    height: 115px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #1C1C1C;
+    margin-top: 27px;
+}
+.s1{
+    width: 1200px;
+    height: 328px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 27px;
+}
+.s2{
+    width: 100%;
+    height: 495px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 99px;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+}
+.p12{
+    width: 100%;
+    height: 49px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 70px;
+    text-align: center;
+}
+.container{
+    width: 864px;
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+}
+.slider__item{
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    transition: 2s all ease;
+    display: flex;
+}
+.back{
+    margin-left: 80px;
+    margin-right: 38px;
+}
+.next{
+    margin-left: 38px;
+    margin-right: 80px;
+}
+.s3{
+    width: 100%;
+    height: 483px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.s3__text{
+    width: 100%;
+    height: 49px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: center;
+}
+.s3__box{
+    width: 503px;
+    height: 143px;
+    background: #F5F5F5;
+}
+.p13{
+    width: 426px;
+    height: 28px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    color: #F0BE1B;
+    margin-left: 29px;
+    margin-top: 24px;
+}
+.p14{
+    width: 426px;
+    height: 45px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-top: 14px;
+    margin-left: 37px;
+}
+.pp3{
+    margin-left: 80px;
+}
+.pp4{
+    margin-left: 27px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background: #0D0D0D;
+}
+.s4{
+    width: 100%;
+    height: 886px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.p15{
+    width: 100%;
+    height: 49px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: center;
+}
+.p16{
+    width: 864px;
+    height: 115px;
+    left: 168px;
+    top: 2738px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #1C1C1C;
+    margin-top: 23px;
+}
+.p17{
+    font-weight: 700;
+}
+.s4__block{
+    margin-top: 23px;
+    width: 732px;
+    height: 568px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input__block1{
+    width: 320px;
+    height: 98px;
+}
+.input__block1 input{
+    width: 320px;
+    height: 49px;
+    border-radius: 3px;
+    border: 1px solid #CFCFCF;
+    padding-left: 5px;
+}
+.input__block1  p{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #1C1C1C;
+    margin-bottom: 7px;
+}
+.input__block2{
+    width: 663px;
+    height: 139px;
+}
+.input__block2 input{
+    width: 663px;
+    height: 90px;
+    border-radius: 3px;
+    border: 1px solid #CFCFCF;
+    padding-left: 5px;
+}
+.input__block2  p{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #1C1C1C;
+    margin-bottom: 7px;
+}
+.input__block3{
+    width: 663px;
+    height: 87px;
+}
+.input__block3 select{
+    width: 663px;
+    height: 47px;
+    border: 1px solid #CFCFCF;
+    border-radius: 3px;
+}
+.input__block3  p{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #1C1C1C;
+    margin-bottom: 7px;
+}
+.o{
+    position: relative;
+    left: -175px;
+}
+.button2{
+    width: 115px;
+    height: 56px;
+    border-radius: 29px;
+    background: #FFEB00;
+}
+.button2p{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #1C1C1C;
+}
+.i5{
+    width: 50px;
+    height: 50px;
+}
+.i6{
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.ii1{
+    position: relative;
+    top: -52px;
+    left: 1072px;
+}
+.i7{
+    width: 341px;
+    height: 250px;
+    margin-right: 13px;
+}
+.slider__item_block{
+    width: 510px;
+    height: 250px;
+    background: #F5F5F5;
+}
+.p18{
+    width: 473px;
+    height: 41px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    color: #F0BE1B;
+    margin-left: 20px;
+    margin-top: 27px;
+}
+.p19{
+    width: 473px;
+    height: 115px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #1C1C1C;
+    margin-left: 20px;
+    margin-top: 10px;
+}
